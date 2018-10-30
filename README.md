@@ -28,11 +28,11 @@ The Vagrant Ansible provisioner allows you to provision the guest using Ansible 
 After installation, Jenkins will be available at http://local-ip:8080, with a default user/pass of admin/admin.
 To start create a Vagrantfile and customize as the user desires 
 Below there are standard commands that are required when using a provisioner for Vagrant: 
-vagrant up - creates a new vagrant box and runs through the provisioning steps in the Vagrant file
-vagrant provision - runs the provisioning steps against an existing Vagrant VM
-vagrant suspend - shuts down the vm and saves state
-vagrant resume - resumes running a previously saved VM
-vagrant destroy - shuts down and removes a Vagrant VM
+#### vagrant up - creates a new vagrant box and runs through the provisioning steps in the Vagrant file
+#### vagrant provision - runs the provisioning steps against an existing Vagrant VM
+#### vagrant suspend - shuts down the vm and saves state
+#### vagrant resume - resumes running a previously saved VM
+#### vagrant destroy - shuts down and removes a Vagrant VM
 You can add the --provision flag to any vagrant up/resume to force a reprovisioning of the machine.
 
 ## Configuration
