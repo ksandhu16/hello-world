@@ -41,6 +41,8 @@ Change the local IP of the Jenkins installation by editing `vagrant-config.yml`
 1. Set the `local_ip` value for the reserved IP range you want to use.
 2. Set the `usethis` value to the configuration block you want to use (`one_nine_two`|`ten`|`one_seven_two`)
 To run Ansible against your Vagrant guest, the basic Vagrantfile configuration looks like:
+
+'''c
 Vagrant.configure("2") do |config|
 
   #
@@ -51,6 +53,6 @@ Vagrant.configure("2") do |config|
   end
 
 end
-
+c'''
 
 
