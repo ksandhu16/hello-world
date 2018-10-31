@@ -1,28 +1,15 @@
----
-output: github_document
----
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-```
- {r setup, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  	  comment = "#>",
-  fig.path = "man/figures/README-"
-)
-```
+# <img src="https://i.imgur.com/vTLlhbp.png" align="right" height=88 /> Calculate abundance and basal area
 
-# <img src="https://i.imgur.com/vTLlhbp.png" align="right" height=88 /> Calculate Abundance and Basal area
-
-[![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)]
-(https://www.tidyverse.org/lifecycle/#experimental)
-[![Travis build status](https://travis-ci.org/forestgeo/fgeo.abundance.svg?branch=master)]
-(https://travis-ci.org/forestgeo/fgeo.abundance)
-[![Coverage status](https://codecov.io/gh/forestgeo/fgeo.abundance/branch/master/graph/badge.svg)]
-(https://codecov.io/github/forestgeo/fgeo.abundance?branch=master)
-[![CRAN status](https://www.r-pkg.org/badges/version/fgeo.abundance)]
-(https://cran.r-project.org/package=fgeo.abundance)
+[![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![Travis build
+status](https://travis-ci.org/forestgeo/fgeo.abundance.svg?branch=master)](https://travis-ci.org/forestgeo/fgeo.abundance)
+[![Coverage
+status](https://codecov.io/gh/forestgeo/fgeo.abundance/branch/master/graph/badge.svg)](https://codecov.io/github/forestgeo/fgeo.abundance?branch=master)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/fgeo.abundance)](https://cran.r-project.org/package=fgeo.abundance)
 
 ## Installation
 
